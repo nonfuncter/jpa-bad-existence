@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/foo/workspace/jpa-bad-existence/src/main/java/com/nonfunc/jpa/existence/ExistenceChecker.java">
+<error line="18" severity="error" message="This looks like a slow JPA existence check, use SELECT 1 in predicate and set max results = 1." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="24" severity="error" message="This looks like a slow JPA existence check, use SELECT 1 in predicate and set max results = 1." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="119" severity="error" message="This looks like a slow JPA existence check, use SELECT 1 in predicate and set max results = 1." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="125" severity="error" message="This looks like a slow JPA existence check, use SELECT 1 in predicate and set max results = 1." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="131" severity="error" message="This looks like a slow JPA existence check, use SELECT 1 in predicate and set max results = 1." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+</checkstyle>
